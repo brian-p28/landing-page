@@ -51,7 +51,7 @@ button {
 
 .one-content {
     display: flex;
-    padding-top: 25px;
+    padding: 40px 0;
     margin: 0 200px;
 }
 
@@ -83,6 +83,65 @@ button {
 .right p {
     font-size: 18px;
     color: white;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.top > h1{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.bottom {
+    display: flex;
+    gap: 30px;
+}
+
+.bottom img {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 10%;
+    margin-bottom: 10px;
+}
+
+.bottom p {
+    width: 150px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.three {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.quote p {
+    width: 900px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    width: 900px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
