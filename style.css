@@ -110,10 +110,10 @@ button {
     gap: 30px;
 }
 
-.bottom img {
-    width: 150px;
+.bottom span {
+    display: flex;
     height: 150px;
-    border: 2px solid #3882F6;
+    border: 3px solid #3882F6;
     border-radius: 10%;
     margin-bottom: 10px;
 }
