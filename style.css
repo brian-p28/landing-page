@@ -11,6 +11,8 @@ body {
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .one {
+    display: flex;
+    flex-direction: column;
     padding-bottom: 50px;
 }
 
@@ -18,7 +20,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 200px;
+    margin: 0 180px;
+    padding-bottom: 40px;
 }
 
 .header > h1 {
@@ -51,8 +54,10 @@ button {
 
 .one-content {
     display: flex;
+    align-self: center;
     padding: 40px 0;
-    margin: 0 200px;
+    margin: 0 150px;
+    gap: 15px;
 }
 
 .left {
@@ -60,14 +65,12 @@ button {
 }
 
 .left > h1 {
-    width: 450px;
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
 }
 
 .left > p {
-    width: 450px;
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -127,18 +130,18 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 40px 0;
+    padding: 61.5px 0;
 }
 
 .quote p {
-    width: 900px;
+    width: 700px;
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
 }
 
 .author {
-    width: 900px;
+    width: 700px;
     display: flex;
     justify-content: flex-end;
     font-size: 18px;
@@ -149,14 +152,14 @@ button {
 
 .four{
     display: flex;
+    justify-content: center;
     align-items: center;
-    height: 335px;
-    padding: 0 400px
+    height: 350px;
 }
 
 .blue {
     height: 80px;
-    flex: 1;
+    width: 850px;
     background-color: #3882F6;
     border-radius: 10px;
     display: flex;
